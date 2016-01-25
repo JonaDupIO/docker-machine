@@ -9,3 +9,4 @@ apt-get -y install curl cntlm git tig docker-engine python-pip unzip telnet vim 
 
 pip install docker-compose
 usermod -a -G docker vagrant
+
