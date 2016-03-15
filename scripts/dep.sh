@@ -5,7 +5,7 @@ echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main" > /etc/apt/sour
 
 apt-get -y update
 
-apt-get -y install curl cntlm git tig docker-engine python-pip unzip telnet vim dos2unix --force-yes
+apt-get -y install curl cntlm git tig docker-engine python-pip unzip telnet vim dos2unix zsh --force-yes
 
 pip install docker-compose
 usermod -a -G docker vagrant
